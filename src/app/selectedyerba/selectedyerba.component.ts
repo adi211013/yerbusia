@@ -8,7 +8,7 @@ import { yerba } from '../yerba.interface';
 export class SelectedyerbaComponent implements OnInit {
 
   constructor() { }
-  @Input() yerbas:yerba={}as any;
+  @Input() yerbas!:yerba;
 
   
   ngOnInit(): void {

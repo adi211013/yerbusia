@@ -1,8 +1,9 @@
 <section class="container">
   <section class="select">
     <select [(ngModel)]="selectedyerba">
-      <option *ngFor="let item of YerbaList" [value]="item">{{item.nazwa}}</option>
+      <option [ngValue]="{}" selected>Brak wyboru</option>
+      <option *ngFor="let item of YerbaList" [ngValue]="item">{{item.nazwa}}</option>
     </select>
   </section>
-  <app-selectedyerba [yerbas]="selectedyerba">elo</app-selectedyerba>
+  <app-selectedyerba class="yerba" [yerbas]="selectedyerba">elo</app-selectedyerba >
 </section>

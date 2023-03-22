@@ -1,0 +1,32 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    height: 100dvh;
+    width: 100dvw;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;    
+    color: white;
+    font-size: 20px;
+    background-color: #998672;  
+}
+.select
+{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+.yerba
+{
+    width: 100%;
+    text-align: center;   
+    margin-top: 40px;
+
+}

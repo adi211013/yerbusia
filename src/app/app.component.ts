@@ -11,6 +11,6 @@ export class AppComponent {
    {nazwa:"Meta Mate CRAFT Gehm Classica", cena:69,waga:500,kofeina:0.4,zdjecie:"../assets//img//2.jpg",typ:"Chimarro"},
    {nazwa:"Kurupi Menta Boldo", cena:22,waga:500,kofeina:0.6,zdjecie:"../assets//img//3.jpg",typ:"Paragwajska"},
    {nazwa:"FD Fede Rico", cena:26,waga:500,kofeina:0.7,zdjecie:"../assets//img//4.jpg",typ:"Paragwajska"}];
-   selectedyerba:yerba={} as any;
+   selectedyerba:yerba=this.YerbaList[0];
 
 }
