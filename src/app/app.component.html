@@ -1,12 +1,8 @@
 <section class="container">
   <section class="select">
     <select [(ngModel)]="selectedyerba">
-      <option [value]="{}" selected>Nie Wybrano</option>
-      <option [value]="YerbaList[0]">{{YerbaList[0].nazwa}}</option>  
-      <option [value]="YerbaList[1]">{{YerbaList[1].nazwa}}</option>  
-      <option [value]="YerbaList[2]">{{YerbaList[2].nazwa}}</option>  
-      <option [value]="YerbaList[3]">{{YerbaList[3].nazwa}}</option>
-    </select>>
+      <option *ngFor="let item of YerbaList" [value]="item">{{item.nazwa}}</option>
+    </select>
   </section>
-  <app-selectedyerba>/</app-selectedyerba>
+  <app-selectedyerba [yerbas]="selectedyerba">elo</app-selectedyerba>
 </section>
