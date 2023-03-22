@@ -1,5 +1,5 @@
 <section class="yerba">
-    <section class="yerbainfo" *ngIf="yerbas!=null">
+    <section class="yerbainfo" *ngIf="yerbas.nazwa!=null">
         <h1>{{yerbas.nazwa}}</h1>
         <img [src]="yerbas.zdjecie" [alt]="yerbas.nazwa">
         <h3>Informacje o Yerbie: <br>

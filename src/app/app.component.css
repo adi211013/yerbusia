@@ -19,10 +19,26 @@ body
 }
 .select
 {
+    margin-top: 10px;
     width: 100%;
     justify-content: center;
     display: flex;
 }
+select
+{
+    width: 33%;
+    outline: none;
+    border: none;
+    color: black;
+    height: 25px;
+    background-color:blanchedalmond;
+    text-align: center;
+    font-size: 16px;
+}
+/* select.option:focus
+{
+    background-color: white;
+} */
 .yerba
 {
     width: 100%;
